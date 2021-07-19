@@ -2,7 +2,7 @@
 brew update
 brew install python awscli git terraform
 pip3 install virtualenv
-git clone https://github.com/splunk/attack_range && cd attack_range
+git clone https://github.com/RalphBrynard/attack_range && cd attack_range
 cd terraform/aws/local
 terraform init
 cd ../../..
